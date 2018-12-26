@@ -27,7 +27,7 @@ const Controls = ({
     </TouchableOpacity>
     <View style={{width: 40}} />
     <TouchableOpacity onPress={onBack}>
-      <Image source={require('../img/ic_skip_previous_white_36pt.png')}/>
+      <Image source={require('../img/ic_skip_previous_white_24.png')}/>
     </TouchableOpacity>
     <View style={{width: 20}} />
     {!paused ?
@@ -46,7 +46,7 @@ const Controls = ({
     <TouchableOpacity onPress={onForward}
       disabled={forwardDisabled}>
       <Image style={[forwardDisabled && {opacity: 0.3}]}
-        source={require('../img/ic_skip_next_white_36pt.png')}/>
+        source={require('../img/ic_skip_next_white_24.png')}/>
     </TouchableOpacity>
     <View style={{width: 40}} />
     <TouchableOpacity activeOpacity={0.0} onPress={onPressRepeat}>

@@ -21,7 +21,7 @@ const TrackDetails = ({
   <View style={styles.container}>
     <TouchableOpacity onPress={onAddPress}>
       <Image style={styles.button}
-        source={require('../img/ic_add_circle_outline_white.png')} />
+        source={require('../img/ic_add_circle_outline_white_24.png')} />
     </TouchableOpacity>
     <View style={styles.detailsWrapper}>
       <Text style={styles.title} onPress={onTitlePress}>{title}</Text>

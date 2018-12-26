@@ -16,7 +16,7 @@ export default class Player extends Component {
     super(props);
 
     this.state = {
-      paused: true,
+      paused: false,
       totalLength: 1,
       currentPosition: 0,
       selectedTrack: 0,
@@ -87,7 +87,7 @@ export default class Player extends Component {
         ref="audioElement"
         paused={this.state.paused}               // Pauses playback entirely.
         resizeMode="cover"           // Fill the whole screen at aspect ratio.
-        repeat={true}                // Repeat forever.
+        repeat={false}                // Repeat forever.
         onLoadStart={this.loadStart} // Callback when video starts to load
         onLoad={this.setDuration.bind(this)}    // Callback when video loads
         onProgress={this.setTime.bind(this)}    // Callback every ~250ms with currentTime
