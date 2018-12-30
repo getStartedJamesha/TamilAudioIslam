@@ -87,7 +87,7 @@ export default class Player extends Component {
         ref="audioElement"
         paused={this.state.paused}               // Pauses playback entirely.
         resizeMode="cover"           // Fill the whole screen at aspect ratio.
-        repeat={false}                // Repeat forever.
+        //repeat={false}                // Repeat forever.
         onLoadStart={this.loadStart} // Callback when video starts to load
         onLoad={this.setDuration.bind(this)}    // Callback when video loads
         onProgress={this.setTime.bind(this)}    // Callback every ~250ms with currentTime
@@ -109,8 +109,8 @@ export default class Player extends Component {
           currentPosition={this.state.currentPosition} />
         <Controls
           onPressRepeat={() => this.setState({repeatOn : !this.state.repeatOn})}
-          repeatOn={this.state.repeatOn}
-          shuffleOn={this.state.shuffleOn}
+          //repeatOn={this.state.repeatOn}
+          //shuffleOn={this.state.shuffleOn}
           forwardDisabled={this.state.selectedTrack === this.props.tracks.length - 1}
           onPressShuffle={() => this.setState({shuffleOn: !this.state.shuffleOn})}
           onPressPlay={() => this.setState({paused: false})}

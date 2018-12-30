@@ -40,7 +40,7 @@ export default TrackDetails;
 
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 24,
+    paddingTop: 44,
     flexDirection: 'row',
     paddingLeft: 20,
     alignItems: 'center',
@@ -52,23 +52,23 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   title: {
-    fontSize: 16,
+    fontSize: 26,
     fontWeight: 'bold',
     color: 'white',
     textAlign: 'center',
   },
   artist: {
     color: 'rgba(255, 255, 255, 0.72)',
-    fontSize: 12,
+    fontSize: 22,
     marginTop: 4,
   },
   button: {
-    opacity: 0.72,
+    opacity: 0.0,
   },
   moreButton: {
     borderColor: 'rgb(255, 255, 255)',
     borderWidth: 2,
-    opacity: 0.72,
+    opacity: 0.0,
     borderRadius: 10,
     width: 20,
     height: 20,
@@ -78,5 +78,6 @@ const styles = StyleSheet.create({
   moreButtonIcon: {
     height: 17,
     width: 17,
+    opacity: 0.0,
   }
 });

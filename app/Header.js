@@ -32,7 +32,7 @@ export default Header;
 
 const styles = StyleSheet.create({
   container: {
-    height: 72,
+    height: 82,
     paddingTop: 20,
     paddingLeft: 12,
     paddingRight: 12,
@@ -43,9 +43,10 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: 'rgba(255, 255, 255, 0.72)',
     fontWeight: 'bold',
-    fontSize: 10,
+    fontSize: 16,
+    marginTop: 10,
   },
   button: {
-    opacity: 0.72
+    opacity: 0.0,
   }
 });

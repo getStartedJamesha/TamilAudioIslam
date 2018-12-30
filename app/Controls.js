@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingTop: 8,
+    paddingTop: 18,
   },
   playButton: {
     height: 72,
@@ -77,8 +77,9 @@ const styles = StyleSheet.create({
   secondaryControl: {
     height: 18,
     width: 18,
+    opacity: 0.0,
   },
   off: {
-    opacity: 0.30,
+    opacity: 0.0,
   }
 })
